@@ -1,8 +1,6 @@
-import { createRequire } from 'module';
+import habitacionruta from './habitacion'
 
-const require = createRequire(import.meta.url);
-
-const Habitacion = require('./habitacion');
+const Habitacion = require('habitacionruta');
 const Climatizador = require('./climatizador');
 const Termostato = require('./termostato');
 const Programador = require('./programador');
