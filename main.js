@@ -22,5 +22,9 @@ termostato.on('tic', (temp) => console.log(`${temp.toFixed(1)}ºC`));
 // Configurar la temp ideal a 20 grados:
 termostato.indicarTemperaturaIdeal(20);
 
+const programador = new Programador(dormitorio);
+programador.programar();
+programador.on('ideal', (tempIdeal) =>  termostato.indicarTemperaturaIdeal(tempIdeal))
+
 // Encender el termostato:
 termostato.encender();
