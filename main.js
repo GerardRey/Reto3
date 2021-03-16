@@ -1,5 +1,3 @@
-import habitacionruta from './habitacion'
-
 const Habitacion = require('habitacionruta');
 const Climatizador = require('./climatizador');
 const Termostato = require('./termostato');
