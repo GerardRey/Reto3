@@ -1,4 +1,4 @@
-const Habitacion = require('habitacionruta');
+const Habitacion = require('./habitacion');
 const Climatizador = require('./climatizador');
 const Termostato = require('./termostato');
 const Programador = require('./programador');
