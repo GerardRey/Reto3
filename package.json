@@ -1,22 +1,31 @@
 {
-  "name": "MOOC_node_mod1-eventos_entrega",
-  "author": "ging-moocs",
-  "license": "GNU",
-  "version": "0.0.0",
-  "info": {
-    "githubURL": "ging-moocs/MOOC_node_mod1-eventos_entrega",
-    "serverUrl": "https://autocorector.dit.upm.es/",
-    "courseId": "2",
-    "assignmentId": "17"
+  "name": "reto3",
+  "version": "1.0.0",
+  "description": "<img  align=\"left\" width=\"150\" style=\"float: left;\" src=\"https://www.upm.es/sfs/Rectorado/Gabinete%20del%20Rector/Logos/UPM/CEI/LOGOTIPO%20leyenda%20color%20JPG%20p.png\">\r <img  align=\"right\" width=\"150\" style=\"float: right;\" src=\"https://miriadax.net/miriadax-theme/images/custom/logo_miriadax_new.svg\">",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
   },
   "engines": {
     "node": "^12.16.0"
   },
-  "main": "main.js",
+  "dependencies": {
+    "requirejs": "^2.3.6",
+    "later": "^1.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node main.js"
   },
-  "dependencies": {
-    "later": "^1.2.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardRey/Reto3.git"
+  },
+  "author": "Gerard Rey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerardRey/Reto3/issues"
+  },
+  "homepage": "https://github.com/GerardRey/Reto3#readme"
 }
